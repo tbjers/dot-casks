@@ -1,5 +1,5 @@
 # tbjers/dot-casks
-Just a bunch of dotfiles.
+Common casks such as Dropbox and Evernote.
 
 ## Install
 Clone and symlink or install with [ellipsis][ellipsis]:
