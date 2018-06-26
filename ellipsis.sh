@@ -3,7 +3,7 @@
 # tbjers/dot-casks ellipsis package
 
 pkg.install() {
-  brew cask install --appdir="/Applications" 1password dropbox evernote iterm2 slack virtualbox vagrant
+  brew cask install --appdir="/Applications" 1password dropbox evernote iterm2 slack virtualbox vagrant google-chrome sequel-pro
 }
 
 # The following hooks can be defined to customize behavior of your package:
