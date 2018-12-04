@@ -17,3 +17,6 @@ pkg.status() {
 pkg.reinstall() {
   eval 'for c in '$CASK_PACKAGES'; do brew cask reinstall $c; done'
 }
+pkg.remove() {
+  eval 'for c in '$CASK_PACKAGES'; do brew cask uninstall $c; done'
+}
