@@ -3,7 +3,7 @@
 # tbjers/dot-casks ellipsis package
 
 APP_DIR="/Applications"
-CASK_PACKAGES="1password dropbox evernote iterm2 slack virtualbox vagrant google-chrome sequel-pro ngrok"
+CASK_PACKAGES="dropbox iterm2 slack virtualbox vagrant ngrok"
 
 pkg.install() {
   eval 'for c in '$CASK_PACKAGES'; do brew cask install $c; done'
